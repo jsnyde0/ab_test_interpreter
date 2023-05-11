@@ -6,10 +6,10 @@ import matplotlib.patches as mpatches
 
 st.title('AB Test Result Interpreter')
 
-visitors_A_observed = st.number_input('Enter the number of visitors for version A', value=1803)
-conversions_A_observed = st.number_input('Enter the number of conversions for version A', value=5)
-visitors_B_observed = st.number_input('Enter the number of visitors for version B', value=2116)
-conversions_B_observed = st.number_input('Enter the number of conversions for version B', value=7)
+visitors_A_observed = st.number_input('Enter the number of visitors for version A', value=2027)
+conversions_A_observed = st.number_input('Enter the number of conversions for version A', value=7)
+visitors_B_observed = st.number_input('Enter the number of visitors for version B', value=2347)
+conversions_B_observed = st.number_input('Enter the number of conversions for version B', value=8)
 
 if st.button('Compute'):
     # AB test version A (moonbird)
