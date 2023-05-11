@@ -12,12 +12,6 @@ visitors_B_observed = st.number_input('Enter the number of visitors for version 
 conversions_B_observed = st.number_input('Enter the number of conversions for version B', value=8)
 
 if st.button('Compute'):
-    # AB test version A (moonbird)
-    visitors_A_observed = 1803
-    conversions_A_observed = 5
-    # AB test version B (Amaury)
-    visitors_B_observed = 2116
-    conversions_B_observed = 7
 
     # Prior parameters (assuming uniform prior)
     alpha_prior = 1
